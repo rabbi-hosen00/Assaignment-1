@@ -91,7 +91,7 @@ opacity: 70%;
     
 }
 .development-title{
-    padding-top: 70px;
+    padding-top: 50px;
     font: Azeret Mono;
     font-weight: 800px;
     font-size: 32px;
@@ -162,5 +162,21 @@ font-weight: 600;
 .section-container-div3{
     padding-right: 140px;
 }
+
+/* inspiration section start */
+.inspiration-section{
+    width: 1140px;
+    height: 677px;
+    margin-top: 0px;
+    margin-left: 148px;
+    margin-right: 152px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+
+
+
+
 
 /* main section ends */
