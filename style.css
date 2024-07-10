@@ -174,9 +174,51 @@ font-weight: 600;
     border-radius: 10px;
 }
 
+/* inspiration section ends */
 
+/* My Current Target start */
 
-
-
+.my-current-target-section{
+    width: 1140px;
+    height: 550px;
+    margin-top: 0px;
+    margin-left: 148px;
+    margin-right: 152px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.technolohy{
+    display: flex;
+}
+.html-section{
+    background: rgba(255, 76, 30, 0.05);
+}
+.css-section{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.js-section{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+.secondary-technology{
+   width: 264px;
+  height: 250px;
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 0px 24px;
+  border-radius: 16px;
+}
+.secondary-technology-description{
+    font-size: 12px;
+    opacity: 70px;
+}
 
 /* main section ends */
