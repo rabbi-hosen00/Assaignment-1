@@ -3,6 +3,13 @@
     padding: 0;
 }
 
+
+
+.azeret-mono-normal {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
 /* banner section start */
 .header-section{
     background-image: url("assets/Hero-bg.png");
@@ -47,6 +54,7 @@ margin-top: 32px;
 text-align: center;
 Font: Azeret Mono;
 font-size: 16px;
+font-weight: 400;
 width: 845px;
 height: 52px;
 color: #0D1321;
@@ -66,20 +74,93 @@ opacity: 70%;
 
 /* banner section end */
 
-/*.header-section{
-    background-image: url("assets/Hero-bg.png");
-    position: absolute;
-    width: 1440px;
-    height: 672px;
-    left: 0;
-    right: 0;
-    top: 131px;
-    bottom: 4462px;
-    }*/
-    position: absolute;
-    width: 998px;
-    height: 582px;
-    left: 221px;
-    right: 221px;
-    top: 90px;
-    bottom: 4506px;
+/* main section start */
+
+.development{
+    margin-top: 50px;
+    margin-left: 148px;
+    margin-right: 152px;
+    margin-bottom: 10px;
+    background-color: #0D132105;
+    width: 1140px;
+    height: 1335px;
+    border-radius: 10px;
+}
+.development-container{
+    text-align: center;
+    
+}
+.development-title{
+    padding-top: 70px;
+    font: Azeret Mono;
+    font-weight: 800px;
+    font-size: 32px;
+}
+.development-description{
+   padding-left: 97px;
+   padding-right: 97px;
+   text-align: center;
+   margin-left: 47px;
+   margin-right: 47px;
+
+}
+
+.section{
+    margin-left: 97px;
+    margin-right: 97px;
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+ .section-container{
+    padding: 48px 48px;
+    display: flex;
+    justify-content: space-between;
+ }
+ .section-container-div1{
+    padding-right: 110px;
+ }
+.section-container-title{
+color: rgba(13, 19, 33, 0.7);
+font-family: Azeret Mono;
+font-size: 24px;
+font-weight: bolder;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: left;
+}
+.secondary-btn{
+position: static;
+width: 150px;
+height: 48px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 20px 12px 20px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 32px 0px;
+box-sizing: border-box;
+border: 1px solid rgb(13, 19, 33);
+opacity: 0.7;
+font-size: 20px;
+font-weight: 600;
+}
+
+/* section 2 start */
+.section-container-div2{
+    padding-left: 32px;
+    padding-right: 101px;
+}
+/* section 2 ends */
+.section-container-div3{
+    padding-right: 140px;
+}
+
+/* main section ends */
