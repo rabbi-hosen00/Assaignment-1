@@ -1,0 +1,85 @@
+*{
+    
+    padding: 0;
+}
+
+/* banner section start */
+.header-section{
+    background-image: url("assets/Hero-bg.png");
+    width: 1440px;
+    height: 672px;
+    left: 0;
+    right: 0;
+    top: 131px;
+    bottom: 4462px;
+    }
+
+      .banner-section{
+        position: absolute;
+        width: 998px;
+        height: 582px;
+        left: 221px;
+        right: 221px;
+        top: 90px;
+        bottom: 4506px;
+        /* Auto layout */
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 0px;
+    }
+
+
+
+.banner-title{
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 48px;
+font-weight: 800;
+line-height: 68px;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 24px;
+margin-top: 32px;
+}
+.banner-description{
+text-align: center;
+Font: Azeret Mono;
+font-size: 16px;
+width: 845px;
+height: 52px;
+color: #0D1321;
+opacity: 70%;
+}
+.btn{
+    width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 10px;
+    background-color: #0D1321;
+    color: white;
+    font-size: 17px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* banner section end */
+
+/*.header-section{
+    background-image: url("assets/Hero-bg.png");
+    position: absolute;
+    width: 1440px;
+    height: 672px;
+    left: 0;
+    right: 0;
+    top: 131px;
+    bottom: 4462px;
+    }*/
+    position: absolute;
+    width: 998px;
+    height: 582px;
+    left: 221px;
+    right: 221px;
+    top: 90px;
+    bottom: 4506px;
