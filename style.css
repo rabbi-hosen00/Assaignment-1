@@ -12,7 +12,7 @@
 }
 /* banner section start */
 .header-section{
-    background-image: url("assets/Hero-bg.png");
+    background-image: url("./assets/Hero-bg.png");
     width: 1440px;
     height: 672px;
     left: 0;
@@ -221,4 +221,74 @@ font-weight: 600;
     opacity: 70px;
 }
 
+/* My Current Target ends */
+
+/* support section start */
+
+.support-section { 
+    background-image: url("./assets/handshake.jpg");
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 1140px;
+    height: 350px;
+    margin-top: 0px;
+    margin-left: 148px;
+    margin-right: 152px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border-radius: 16px;
+    color: #0D1321;
+}
+.support-section-title{
+    color: rgb(255, 255, 255);
+   font-family: Azeret Mono;
+   font-size: 32px;
+   font-weight: 700;
+   line-height: 36px;
+   letter-spacing: 0%;
+   text-align: center;
+}
+.support-section-desc{
+    color: rgb(255, 255, 255);
+}
+.input-section{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.input-section input {
+    width: 548px;
+    height: 47px;
+    border-radius: 10px;
+    padding-left: 15px;
+    margin-right: 10px;
+}
+.secondary-bttn{
+position: static;
+width: 80px;
+height: 15px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 17px 10px 17px 10px;
+
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 16px;
+border-radius: 8px;
+background: rgb(255, 255, 255);
+border: none;
+}
+.bttn{
+    border: none;
+}
 /* main section ends */
+
+/* footer section starts*/
+
+/* footer section ends*/
